@@ -1,8 +1,17 @@
 # HAUPokemon 🎮📍
 
+[![Flutter](https://img.shields.io/badge/Flutter-Framework-02569B?logo=flutter&logoColor=white)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-Language-0175C2?logo=dart&logoColor=white)](https://dart.dev/)
+[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)](https://developer.android.com/)
+[![AWS EC2](https://img.shields.io/badge/Cloud-AWS%20EC2-FF9900?logo=amazonec2&logoColor=white)](https://aws.amazon.com/ec2/)
+[![OpenStreetMap](https://img.shields.io/badge/Maps-OpenStreetMap-7EBC6F?logo=openstreetmap&logoColor=white)](https://www.openstreetmap.org/)
+[![REST API](https://img.shields.io/badge/API-HTTP%20%2F%20JSON-4B8BBE)](https://www.json.org/json-en.html)
+[![AI Assisted](https://img.shields.io/badge/Development-AI--Assisted-8A2BE2?logo=openai&logoColor=white)](https://openai.com/)
+[![Academic Project](https://img.shields.io/badge/Project-Academic-6A737D)](#academic-project)
+
 HAUPokemon is a location-based monster-catching mobile application developed as a **group school project** for a cloud-computing course. Built with Flutter, it combines GPS-based gameplay with a backend API and AWS EC2 status/control features.
 
-> **Project context:** Academic group project. My contributions focused on Flutter application work, AWS EC2 setup, and bug fixing. The features listed below describe the project as a whole, not necessarily work completed individually by me.
+> **Project context:** Academic group project. AI tools were used as development assistance where helpful, alongside human implementation, review, debugging, and testing. My contributions focused on Flutter application work, AWS EC2 setup, and bug fixing. The features listed below describe the project as a whole, not necessarily work completed individually by me.
 
 ## Features
 
@@ -21,6 +30,7 @@ As a member of the project team, my work included:
 - Contributing to the Flutter application.
 - Helping set up and configure AWS EC2 for the project.
 - Debugging issues and helping fix application problems.
+- Using AI-assisted tools as a development aid where appropriate, while reviewing and adapting outputs to the project.
 
 This is a summary of my individual contributions; the application was built collaboratively with my teammates.
 
@@ -32,8 +42,9 @@ This is a summary of my individual contributions; the application was built coll
 | API communication | HTTP, JSON |
 | Location and maps | Geolocator, Flutter Map, OpenStreetMap, LatLong2 |
 | State and local preferences | Provider, Shared Preferences |
-| Media and device features | AudioPlayers, Torch Light, Image Picker, Permission Handler |
+| Media and device features | AudioPlayers, Torch Light, Image Picker, Permission Handler, Cached Network Image |
 | Cloud infrastructure | AWS EC2; API endpoints are configured separately |
+| AI-assisted development | AI tools used as assistance for development tasks; outputs should be reviewed and validated |
 | Testing and code quality | Flutter Test, Flutter Lints |
 
 ## How It Works
@@ -93,24 +104,6 @@ flutter test
 
 Record the actual results here after running them. Do not describe checks as passing unless you have run them successfully.
 
-## Screenshots
-
-Add screenshots of the app here to help readers understand the project. Suggested screens:
-
-- Login or registration
-- Monster list
-- Nearby monster detection
-- Monster map
-- Leaderboard
-- EC2 status screen
-
-For example, create a `screenshots/` directory and add images, then embed them with Markdown:
-
-```markdown
-![Monster map](screenshots/monster-map.png)
-```
-
-Only include screenshots that you have added to the repository.
 
 ## Limitations and Notes
 
@@ -118,9 +111,11 @@ Only include screenshots that you have added to the repository.
 - Backend-dependent features require the configured API to be available.
 - Flashlight feedback depends on device hardware and platform permissions.
 - AWS instance controls should only be used in the intended project environment and by authorized users.
+- AI-assisted development does not replace code review, security review, testing, or verification of generated suggestions.
+- Build, test, coverage, release, and license badges are intentionally not included as passing/status badges unless the repository has the corresponding workflow, measured result, release, or license configured.
 
 ## Academic Project
 
 Developed collaboratively as a school project at **Holy Angel University**.
 
-This repository demonstrates my experience contributing to a Flutter application, working with cloud infrastructure, integrating API-driven functionality, and debugging issues in a team project.
+This repository demonstrates experience contributing to a Flutter application, working with cloud infrastructure, integrating API-driven functionality, using AI-assisted development tools responsibly, and debugging issues in a team project.
