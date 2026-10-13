@@ -109,6 +109,16 @@ Developed collaboratively as a school project at **Holy Angel University**.
 
 This repository reflects my experience contributing to a Flutter application, working with cloud infrastructure, integrating API-driven functionality, and debugging issues in a team project.
 
+## Team
+
+Group project at Holy Angel University.
+
+- [Ranz Emmanuel Cuarto](https://github.com/rnzcrt)
+- [Mark Darius David](https://github.com/darsy29)
+- [Rian Cortez](https://github.com/riancrtz)
+- [Ryence Cortez](https://github.com/Ryence07)
+- [Jeremiah Carbungco](https://github.com/JerJers)
+
 ## AI Credits
 
 AI tools were used to help with parts of this project and to draft this README.
